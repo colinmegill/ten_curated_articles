@@ -7,7 +7,7 @@ app.use(express.static(__dirname));
 
 var port = process.env.PORT || 3000;
 app.listen(port);
-console.log("conference on port " + port)
+console.log("curated articles with discussion on port " + port)
 
 app.get('/', function(req,res){
 	
